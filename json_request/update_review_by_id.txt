@@ -1,0 +1,1 @@
+ curl -i -H "AUTH-TOKEN: H67vueCCEdBQ5kEhTZyj4Mds" -H "Content-Type: application/json" -d '{"review":{"title":"now im review 50","content_rating": 7,"recommend_rating": 7}}' -X PUT http://localhost:3000/api/v1/books/20/reviews/3

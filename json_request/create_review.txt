@@ -1,0 +1,1 @@
+curl -H "AUTH-TOKEN: H67vueCCEdBQ5kEhTZyj4Mds" -H "Content-Type: application/json" -d '{"review":{"title":"naruto","content_rating": 9,"recommend_rating": 6}}' -X POST http://localhost:3000/api/v1/books/20/reviews

@@ -1,0 +1,5 @@
+#Este sirve para traer todos los libros
+curl http://localhost:3000/api/v1/books
+
+#Este sirve para traer un libro en especifico
+curl http://localhost:3000/api/v1/books/1
